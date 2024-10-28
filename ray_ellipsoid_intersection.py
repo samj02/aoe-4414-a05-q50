@@ -53,7 +53,7 @@ else:
 
 # Script
 
-a = d_l_x * d_l_x + d_l_y * d_l_y + (d_l_z * d_l_z) / (1 - E_E * E_E)
+a = (d_l_x * d_l_x + d_l_y * d_l_y + (d_l_z * d_l_z)) / (1 - E_E * E_E)
 b = 2 * (d_l_x * c_l_x + d_l_y * c_l_y + (d_l_z * c_l_z) / (1 - E_E ** 2))
 c = c_l_x ** 2 + c_l_y ** 2 + (c_l_z ** 2) / (1 - E_E ** 2) - R_E_KM ** 2
 discr = b * b - 4.0 * a * c
